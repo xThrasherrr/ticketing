@@ -1,0 +1,20 @@
+.cards-container, .stats-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card, .stat-card {
+    background: #252526;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover, .stat-card:hover {
+    background: #4caf50;
+}
